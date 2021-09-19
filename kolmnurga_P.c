@@ -25,9 +25,9 @@ int main(void){
      
     
     
-    A = sqrt((double)(bx-ax) * (bx-ax) + (by-ay) * (by-ay));
-    B = sqrt((double)(bx-cx) * (bx-cx) + (by-cy) * (by-cy));
-    C = sqrt((double)(ax-cx) * (ax-cx) + (ay-cy) * (ay-cy));
+    A = sqrt((bx-ax) * (bx-ax) + (by-ay) * (by-ay));
+    B = sqrt((bx-cx) * (bx-cx) + (by-cy) * (by-cy));
+    C = sqrt((ax-cx) * (ax-cx) + (ay-cy) * (ay-cy));
     
     if(A <= 0 || B <= 0 || C <= 0){
             printf("Küljepikkus ei tohi olla negatiivne või null.\n");
